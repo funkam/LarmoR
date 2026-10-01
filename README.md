@@ -1,6 +1,6 @@
-<img src="www/logo.png" width="150" align="left" hspace="25" vspace="15" alt="LARMOR logo">
+<img src="www/logo.png" width="150" align="left" hspace="25" vspace="15" alt="LarmoR logo">
 
-### LARMO*R*
+### **Larmor*R***
 
 **L**aboratory **A**utomation Software for NM**R**-based **M**etabolomics **O**peration in **R**
 
@@ -16,7 +16,7 @@ A Shiny application for managing high-throughput metabolomic NMR spectroscopy wo
 
 ---
 
-LARMO*R* is a shiny application built to streamline the usage of high-throughput NMR spectroscopy. LARMO*R* is designed to create submission ready templates for icon while 
+**Larmo*R*** is a shiny application built to streamline the usage of high-throughput NMR spectroscopy. LARMO*R* is designed to create submission ready templates for icon while 
 providing archiving and project tracking features for the submitted samples. While this part essentially could work with any experiments submitted through ICON, the remaining features are designed for the 
 use with BRUKER's IVDr methods for high-throughput metabolomics.
 
@@ -98,53 +98,10 @@ Additional tools include:
 ---
  
 ## **Installation**
+See the [Installation Guide](docs/Installation.md) for detailed installation instructions.
 
-+ ### Windows - No prior R knowledge
-
-
-  1. Click the green **Code** button above, then **Download ZIP**
-  2. Right-click the ZIP → **Extract All** → pick a folder such as `C:\\\\IVDrDataManager`
-  3. Double-click **`install.bat`**
-  
-The installer will:
-  
-  - find R on your PC, or offer to download and install it
-  - install the required R packages (5–15 min on first run)
-  - create `config.R` from the template
-  - put an **IVDrDataManager** shortcut on your Desktop
-  
-  
-  Then just double-click the Desktop shortcut. A black console window opens, and the app appears in your browser.
-  
-  **Leave the Windows CMD window open while you work** — closing it stops the app."
-  
-+  ### Configuration
-  
-  "Open `config.R` in Notepad to set your lab name and default data folder:"
-  
-  ```r,
-  "lab_name          <- \"Your Lab Name\""
-  "DEFAULT_DATA_PATH <- \"D:/Data/NMR/2026\""
-  "SPECTROMETER_MHZ  <- 600"
-  ```
-  
-+  ### Troubleshooting
-  
-  
-  | Problem | Fix |
-  |---|---|
-  | \"R was not found\" | Run `install.bat` again, or install R from [CRAN](https://cran.r-project.org/bin/windows/base/) |
-  | Package install fails | Right-click `install.bat` → **Run as administrator** |",
-  | Browser doesn't open | Copy the `http://127.0.0.1:...` address from the console into your browser |
-  | App won't start | Open `error_log.txt` in the app folder |
-  | Corporate proxy blocks CRAN | Ask IT to allow `cran.r-project.org` and `cloud.r-project.org` |
-  
-+  ### Uninstall
-  
-  Run `uninstall.bat`, then delete the folder.
-  
 
 ---
 
 ## **Manual**
-  - see the Vignette for detailed instructions for the individual modules
+See the [User Guide](docs/User-Guide.md) for detailed instructions for the individual modules.
