@@ -1,4 +1,4 @@
-<img src="www/logo.svg" width="150" align="left" hspace="25" vspace="15" alt="LARMOR logo">
+<img src="www/logo.png" width="150" align="left" hspace="25" vspace="15" alt="LARMOR logo">
 
 ### LARMO*R*
 
