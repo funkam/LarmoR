@@ -1,0 +1,7 @@
+"id","label","group","tube_size","solvent","archive_type","experiments","active"
+"Plasma","Plasma (IVDr)","IVDr Standard","5mm","Plasma","Plasma","N PROF_PLASMA_NOESY;N PROF_PLASMA_JRES;N PROF_PLASMA_CPMG;N PROF_PLASMA_DIFF;N PROF_PLASMA_DAS",TRUE
+"Plasma","Plasma (IVDr)","IVDr Standard","3mm","Plasma_3mm","Plasma","N PROF_PLASMA_NOESY_3mm;N PROF_PLASMA_JRES_3mm;N PROF_PLASMA_CPMG_3mm;N PROF_PLASMA_DIFF_3mm;N PROF_PLASMA_DAS",TRUE
+"Urine","Urine (IVDr)","IVDr Standard","5mm","Urine","Urine","N PROF_URINE_NOESY;N PROF_URINE_JRES;N PROF_URINE_DAS",TRUE
+"Urine","Urine (IVDr)","IVDr Standard","3mm","Urine_3mm","Urine","N PROF_URINE_NOESY_3mm;N PROF_URINE_JRES_3mm;N PROF_URINE_DAS",TRUE
+"Other","Other / Custom","Custom","5mm","CDCl3","Other","zg30",TRUE
+"Other","Other / Custom","Custom","3mm","CDCl3","Other","zg30",TRUE
