@@ -16,14 +16,16 @@ log_msg <- function(...) {
 
 # Fresh log each session
 try(unlink(log_file), silent = TRUE)
-log_msg("IVDrDataManager starting")
+log_msg("LarmoR starting")
 log_msg("Directory: ", app_dir)
 log_msg(R.version.string)
 
 # --- Dependency check --------------------------------------------------
+# Must match setup_packages.R
 required <- c("shiny", "bslib", "DT", "plotly", "data.table",
-              "dplyr", "tidyr", "openxlsx", "xml2", "shinyjs",
-              "shinyFiles", "jsonlite")
+              "dplyr", "openxlsx", "xml2", "shinyjs", "jsonlite",
+              "htmltools", "future", "future.apply", "readxl",
+              "fs", "htmlwidgets", "rstudioapi", "PepsNMR")
 
 missing <- required[!vapply(required, requireNamespace, logical(1), quietly = TRUE)]
 
